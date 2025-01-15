@@ -85,10 +85,18 @@ h2 {
   color: #000; /* Nero */
 }
 
-.video iframe {
+.video-container {
   display: block;
-  margin: 20px auto; /* Centrare il video */
-  border-radius: 15px; /* Smussa i 4 angoli */
-  overflow: hidden; /* Garantisce che il contenuto rimanga entro i bordi arrotondati */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiungi un'ombra per migliorare l'aspetto */
+  margin: 20px auto;
+  width: 800px;
+  height: 450px;
+  border-radius: 15px; /* Smussa gli angoli */
+  overflow: hidden; /* Nasconde i bordi del contenuto */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra */
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none; /* Rimuove eventuali bordi predefiniti */
 }
