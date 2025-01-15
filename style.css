@@ -1,33 +1,34 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif; /* Font moderno e accattivante */
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #fff; /* Sfondo bianco */
   color: #333;
 }
 
 header {
   text-align: center;
   padding: 20px;
-  background-color: #fff;
   border-bottom: 1px solid #ddd;
 }
 
 header h1 {
   margin-bottom: 10px;
-  font-size: 32px; /* Titolo più grande */
+  font-size: 36px; /* Titolo più grande */
   color: #000; /* Nero */
 }
 
 .authors {
-  font-size: 14px;
-  margin: 5px 0;
+  font-size: 16px; /* Nome autori più grande */
+  margin: 10px 0;
 }
 
 .affiliations {
-  font-size: 12px;
+  font-size: 14px;
   color: #666;
-  margin: 10px 0;
 }
 
 .buttons {
@@ -35,21 +36,27 @@ header h1 {
 }
 
 .button {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   margin: 5px;
   padding: 10px 20px;
   background-color: #000; /* Nero */
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 15px; /* Bordi arrotondati */
   font-size: 14px;
   font-weight: bold;
-  text-align: center;
   transition: background-color 0.3s ease;
 }
 
 .button:hover {
   background-color: #333;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
 }
 
 main {
@@ -62,7 +69,7 @@ main {
   margin-bottom: 30px;
   background: #fff;
   padding: 15px;
-  border-radius: 8px;
+  border-radius: 15px; /* Bordi arrotondati */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -73,7 +80,8 @@ h2 {
 
 .video iframe {
   display: block;
-  margin: 0 auto; /* Centrare il video */
+  margin: 20px auto; /* Centrare il video */
+  border-radius: 15px; /* Bordi arrotondati */
 }
 
 footer {
