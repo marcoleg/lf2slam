@@ -38,7 +38,7 @@ header h1 {
   display: flex;
   align-items: center;
   padding: 10px 15px;
-  background-color: transparent; /* Nessun riempimento */
+  background-color: #fff; /* Sfondo bianco */
   border: 2px solid #000; /* Bordo nero */
   color: #000; /* Testo nero */
   text-decoration: none;
@@ -49,8 +49,7 @@ header h1 {
 }
 
 .button:hover {
-  background-color: #000; /* Sfondo nero al passaggio */
-  color: #fff; /* Testo bianco al passaggio */
+  background-color: #f0f0f0; /* Cambia leggermente colore sul hover */
 }
 
 .icon {
