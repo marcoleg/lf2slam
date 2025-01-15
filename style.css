@@ -100,3 +100,37 @@ h2 {
   height: 100%;
   border: none; /* Rimuove eventuali bordi predefiniti */
 }
+
+.overview {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.overview h2 {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.overview-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Spaziatura tra immagine e testo */
+}
+
+.overview-image {
+  max-width: 100%; /* Adatta l'immagine alla larghezza del contenitore */
+  height: auto;
+  border-radius: 10px; /* Arrotonda i bordi dell'immagine */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+}
+
+.overview-text {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  max-width: 800px; /* Limita la larghezza del testo */
+}
+
