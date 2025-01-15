@@ -9,39 +9,45 @@
 <body>
   <header>
     <h1>LF²SLAM: Learning-based Features For Visual SLAM</h1>
-    <div align="center">
-      <img src="./overview.png" alt="Overview of LF²SLAM" style="max-width: 50%; height: auto;">
+    <div class="authors">
+      <p>Marco Legittimo<br>Department of Engineering, University of Perugia, Perugia, Italy</p>
+      <p>Francesco Crocetti<br>Department of Engineering, University of Perugia, Perugia, Italy</p>
+      <p>Mario Luca Fravolini<br>Department of Engineering, University of Perugia, Perugia, Italy</p>
+      <p>Giuseppe Mollica<br>ART Spa</p>
+      <p>Gabriele Costante<br>Department of Engineering, University of Perugia, Perugia, Italy</p>
+    </div>
+    <div class="buttons">
+      <a href="https://ieeexplore.ieee.org/abstract/document/10801935" target="_blank" class="button">📄 Paper</a>
+      <a href="https://www.youtube.com/watch?v=kLlG4tYdzh8" target="_blank" class="button">▶️ Video</a>
+      <a href="https://github.com/isarlab-department-engineering/LFFS" target="_blank" class="button">💻 Code</a>
     </div>
   </header>
 
   <main>
+    <section class="video">
+      <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/kLlG4tYdzh8" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </section>
+
     <section class="abstract">
       <h2>Abstract</h2>
       <p>
-        Autonomous robot navigation relies on the robot’s ability to understand its environment for localization, typically using a Visual Simultaneous Localization And Mapping (SLAM) algorithm that processes image sequences. While state-of-the-art methods have shown remarkable performance, they still have limitations. Geometric VO algorithms that leverage hand-crafted feature extractors require careful hyper-parameter tuning. Conversely, end-to-end data-driven VO algorithms suffer from limited generalization capabilities and require large datasets for their proper optimizations. Recently, promising results have been shown by hybrid approaches that integrate robust data-driven feature extraction with the geometric estimation pipeline. In this work, we follow these intuitions and propose a hybrid VO method, namely Learned Features For SLAM (LF²SLAM), that combines a deep neural network for feature extraction with a standard VO pipeline. The network is trained in a data-driven framework that includes a pose estimation component to learn feature extractors that are tailored for VO tasks. A novel loss function modification is introduced, using a binary mask that considers only the informative features. The experimental evaluation performed shows that our approach has remarkable generalization capabilities in scenarios that differ from those used for training. Furthermore, LF²SLAM exhibits robustness in more challenging scenarios, i.e., characterized by the presence of poor lighting and low amount of texture, with respect to the state-of-the-art ORB-SLAM3 algorithm.
+        Autonomous robot navigation relies on the robot’s ability to understand its environment for localization, typically using a Visual Simultaneous Localization And Mapping (SLAM) algorithm that processes image sequences...
       </p>
     </section>
 
-    <section class="links">
-      <h2>Project Links</h2>
-      <p>
-        Explore the code, documentation, and more on the project's <a href="https://github.com/isarlab-department-engineering/LFFS" target="_blank">GitHub Repository</a>.
-      </p>
-    </section>
-
-    <section class="citation">
-      <h2>Citation</h2>
-      <p>If you use this work, please cite the following paper:</p>
-      <pre><code>
-@INPROCEEDINGS{10801935,
-  author={Legittimo, Marco and Crocetti, Francesco and Fravolini, Mario Luca and Mollica, Giuseppe and Costante, Gabriele},
-  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
-  title={LF²SLAM: Learning-based Features For visual SLAM}, 
-  year={2024},
-  pages={5648-5655},
-  doi={10.1109/IROS58592.2024.10801935}
-}
-      </code></pre>
+    <section class="overview">
+      <h2>Overview</h2>
+      <div align="center">
+        <img src="./overview.png" alt="Overview of LF²SLAM" style="max-width: 100%; height: auto;">
+      </div>
     </section>
   </main>
 

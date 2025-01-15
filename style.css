@@ -16,7 +16,32 @@ header {
 header h1 {
   margin-bottom: 20px;
   font-size: 28px;
-  color: #007BFF;
+  color: #000; /* Nero */
+}
+
+.authors {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.button {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #000; /* Nero */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color: #333;
 }
 
 main {
@@ -25,7 +50,7 @@ main {
   margin: 0 auto;
 }
 
-.abstract, .links, .citation {
+.abstract, .overview {
   margin-bottom: 30px;
   background: #fff;
   padding: 15px;
@@ -35,29 +60,20 @@ main {
 
 h2 {
   margin-top: 0;
-  color: #007BFF;
+  color: #000; /* Nero */
 }
 
-a {
-  color: #007BFF;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-pre {
-  background: #f8f8f8;
-  padding: 10px;
-  border-radius: 5px;
-  overflow: auto;
+.video iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #007BFF;
+  background-color: #000; /* Nero */
   color: white;
 }
 
@@ -65,4 +81,3 @@ footer a {
   color: #fff;
   text-decoration: underline;
 }
-
