@@ -76,8 +76,8 @@ main {
   margin-top: 30px;
   padding: 20px;
   border-radius: 10px; /* Arrotondato */
-  background: #f9f9f9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #fff; /* Sfondo bianco */
+  box-shadow: none; /* Rimuove l'ombra */
 }
 
 h2 {
