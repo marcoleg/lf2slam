@@ -14,18 +14,24 @@ header {
 }
 
 header h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 28px;
   color: #000; /* Nero */
 }
 
 .authors {
-  margin-bottom: 20px;
   font-size: 14px;
+  margin: 5px 0;
+}
+
+.affiliations {
+  font-size: 12px;
+  color: #666;
+  margin: 10px 0;
 }
 
 .buttons {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .button {
@@ -36,8 +42,10 @@ header h1 {
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
   font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
 }
 
 .button:hover {
