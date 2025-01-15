@@ -12,7 +12,6 @@ body {
 header {
   text-align: center;
   padding: 20px;
-  border-bottom: 1px solid #ddd;
 }
 
 header h1 {
@@ -22,35 +21,38 @@ header h1 {
 }
 
 .authors {
-  font-size: 16px; /* Nome autori più grande */
-  margin: 10px 0;
+  font-size: 16px;
+  color: #666;
 }
 
 .affiliations {
   font-size: 14px;
-  color: #666;
+  color: #999;
 }
 
 .buttons {
   margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Distanza tra i pulsanti */
 }
 
 .button {
   display: inline-flex;
   align-items: center;
-  margin: 5px;
   padding: 10px 20px;
   background-color: #000; /* Nero */
   color: white;
   text-decoration: none;
-  border-radius: 15px; /* Bordi arrotondati */
+  border-radius: 30px; /* Bordi arrotondati */
   font-size: 14px;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .button:hover {
-  background-color: #333;
+  background-color: #444;
 }
 
 .icon {
@@ -65,33 +67,15 @@ main {
   margin: 0 auto;
 }
 
-.abstract, .overview {
-  margin-bottom: 30px;
-  background: #fff;
-  padding: 15px;
-  border-radius: 15px; /* Bordi arrotondati */
+.abstract {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px; /* Bordi arrotondati */
+  background: #f9f9f9;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
   text-align: center; /* Centrare i titoli */
   color: #000; /* Nero */
-}
-
-.video iframe {
-  display: block;
-  margin: 20px auto; /* Centrare il video */
-  border-radius: 15px; /* Bordi arrotondati */
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #000; /* Nero */
-  color: white;
-}
-
-footer a {
-  color: #fff;
-  text-decoration: underline;
 }
