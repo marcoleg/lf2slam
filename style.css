@@ -84,3 +84,11 @@ h2 {
   text-align: center; /* Centrare titoli */
   color: #000; /* Nero */
 }
+
+.video iframe {
+  display: block;
+  margin: 20px auto; /* Centrare il video */
+  border-radius: 15px; /* Smussa i 4 angoli */
+  overflow: hidden; /* Garantisce che il contenuto rimanga entro i bordi arrotondati */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiungi un'ombra per migliorare l'aspetto */
+}
