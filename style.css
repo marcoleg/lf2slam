@@ -15,7 +15,7 @@ header {
 
 header h1 {
   margin-bottom: 10px;
-  font-size: 28px;
+  font-size: 32px; /* Titolo più grande */
   color: #000; /* Nero */
 }
 
@@ -67,15 +67,13 @@ main {
 }
 
 h2 {
-  margin-top: 0;
+  text-align: center; /* Centrare i titoli */
   color: #000; /* Nero */
 }
 
 .video iframe {
   display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
+  margin: 0 auto; /* Centrare il video */
 }
 
 footer {

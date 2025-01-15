@@ -13,8 +13,7 @@
       Marco Legittimo<sup>1</sup>, Francesco Crocetti<sup>1</sup>, Mario Luca Fravolini<sup>1</sup>, Giuseppe Mollica<sup>2</sup>, Gabriele Costante<sup>1</sup>
     </p>
     <p class="affiliations">
-      <sup>1</sup>Department of Engineering, University of Perugia, Perugia, Italy<br>
-      <sup>2</sup>ART Spa
+      <sup>1</sup>Department of Engineering, University of Perugia, Perugia, Italy & <sup>2</sup>ART Spa
     </p>
     <div class="buttons">
       <a href="https://ieeexplore.ieee.org/abstract/document/10801935" target="_blank" class="button">
@@ -32,8 +31,8 @@
   <main>
     <section class="video">
       <iframe 
-        width="560" 
-        height="315" 
+        width="800" 
+        height="450" 
         src="https://www.youtube.com/embed/kLlG4tYdzh8" 
         title="YouTube video player" 
         frameborder="0" 
@@ -45,7 +44,7 @@
     <section class="abstract">
       <h2>Abstract</h2>
       <p>
-        Autonomous robot navigation relies on the robot’s ability to understand its environment for localization, typically using a Visual Simultaneous Localization And Mapping (SLAM) algorithm that processes image sequences...
+        Autonomous robot navigation relies on the robot’s ability to understand its environment for localization, typically using a Visual Simultaneous Localization And Mapping (SLAM) algorithm that processes image sequences. While state-of-the-art methods have shown remarkable performance, they still have limitations. Geometric VO algorithms that leverage hand-crafted feature extractors require careful hyper-parameter tuning. Conversely, end-to-end data-driven VO algorithms suffer from limited generalization capabilities and require large datasets for their proper optimizations. Recently, promising results have been shown by hybrid approaches that integrate robust data-driven feature extraction with the geometric estimation pipeline. In this work, we follow these intuitions and propose a hybrid VO method, namely Learned Features For SLAM (LF²SLAM), that combines a deep neural network for feature extraction with a standard VO pipeline. The network is trained in a data-driven framework that includes a pose estimation component to learn feature extractors that are tailored for VO tasks. A novel loss function modification is introduced, using a binary mask that considers only the informative features. The experimental evaluation performed shows that our approach has remarkable generalization capabilities in scenarios that differ from those used for training. Furthermore, LF²SLAM exhibits robustness in more challenging scenarios, i.e., characterized by the presence of poor lighting and low amount of texture, with respect to the state-of-the-art ORB-SLAM3 algorithm.
       </p>
     </section>
 
