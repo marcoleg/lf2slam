@@ -72,12 +72,7 @@ main {
   margin: 0 auto;
 }
 
-h2 {
-  text-align: center; /* Centrare titoli */
-  color: #000; /* Nero */
-}
-
-.abstract, .overview, .method, .results {
+.abstract {
   margin-top: 30px;
   padding: 20px;
   border-radius: 10px; /* Arrotondato */
@@ -85,24 +80,100 @@ h2 {
   box-shadow: none; /* Rimuove l'ombra */
 }
 
-.overview-image {
-  max-width: 80%; /* Riduce la dimensione dell'immagine */
-  height: auto;
-  margin: 20px 0;
+h2 {
+  text-align: center; /* Centrare titoli */
+  color: #000; /* Nero */
 }
 
-p {
+.video-container {
+  display: block;
+  margin: 20px auto;
+  width: 800px;
+  height: 450px;
+  border-radius: 15px; /* Smussa gli angoli */
+  overflow: hidden; /* Nasconde i bordi del contenuto */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra */
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none; /* Rimuove eventuali bordi predefiniti */
+}
+
+.overview {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.overview h2 {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.overview-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Spaziatura tra immagine e testo */
+}
+
+.overview-image {
+  max-width: 100%; /* Adatta l'immagine alla larghezza del contenitore */
+  height: auto;
+  border-radius: 10px; /* Arrotonda i bordi dell'immagine */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+}
+
+.overview-text {
   font-size: 16px;
   color: #666;
   line-height: 1.6;
-  text-align: justify; /* Impaginazione come abstract */
+  max-width: 800px; /* Limita la larghezza del testo */
 }
 
-.method-image {
-  max-width: 70%; /* Riduce la dimensione dell'immagine */
+.method, .results {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.method h2, .results h2 {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.method-content, .results-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Spaziatura tra immagine e testo */
+}
+
+.method-image, .results-image {
+  max-width: 100%;
   height: auto;
-  margin: 20px auto;
-  display: block;
-  border-radius: 10px; /* Arrotonda i bordi */
+  border-radius: 10px; /* Arrotonda i bordi delle immagini */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
 }
+
+.method-text, .results-text {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  max-width: 800px; /* Limita la larghezza del testo */
+}
+
+.method-pdf {
+  width: 100%;
+  max-width: 800px; /* Limita la larghezza del PDF */
+  height: 500px; /* Altezza del PDF*/
+  border: 1px solid #ccc; /* Bordo per il PDF */
+  border-radius: 10px; /* Bordi arrotondati */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+  margin-bottom: 20px; /* Spaziatura sotto il PDF */
+}
+
