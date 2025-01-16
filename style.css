@@ -121,7 +121,7 @@ h2 {
 }
 
 .overview-image {
-  max-width: 70%; /* Riduci la larghezza al 70% del contenitore */
+  max-width: 75%; /* Riduci la larghezza al 70% del contenitore */
   height: auto; /* Mantieni le proporzioni */
   margin: 0 auto; /* Centra l'immagine */
   border-radius: 10px; /* Arrotonda i bordi */
