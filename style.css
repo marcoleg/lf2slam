@@ -186,3 +186,10 @@ h2 {
   margin: 0 auto; /* Centro il blocco */
   max-width: 800px; /* Larghezza massima per il testo */
 }
+
+.method-content h3 {
+  font-size: 20px; /* Dimensione del sottotitolo */
+  color: #000; /* Colore nero */
+  text-align: center; /* Allinea al centro */
+  margin-bottom: 15px; /* Spazio sotto il titolo */
+}
