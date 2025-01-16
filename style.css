@@ -97,3 +97,9 @@ p {
   line-height: 1.6;
   text-align: justify; /* Impaginazione come abstract */
 }
+
+.method-image {
+  max-width: 80%; /* Riduce la dimensione dell'immagine */
+  height: auto;
+  margin: 20px 0;
+}
