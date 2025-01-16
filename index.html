@@ -59,7 +59,9 @@
     <section class="abstract">
       <h2>Abstract</h2>
       <p>
-        Autonomous robot navigation relies on Visual Simultaneous Localization And Mapping (VSLAM) for pose estimation, leveraging geometric or data-driven methods. LF²SLAM combines deep neural networks with standard VO pipelines to extract robust features and improve generalization in challenging scenarios. This hybrid approach demonstrates enhanced performance in environments with poor lighting and low texture, outperforming traditional ORB-SLAM3 in terms of robustness and accuracy.
+        Autonomous robot navigation relies on a robot's ability to understand its environment for localization, typically using a Visual Simultaneous Localization And Mapping (VSLAM) algorithm that processes image sequences. While state-of-the-art methods have shown remarkable performance, they face limitations: geometric VSLAM algorithms depend on carefully tuned hand-crafted feature extractors, whereas data-driven approaches suffer from limited generalization and require extensive training datasets.
+
+        LF²SLAM proposes a hybrid solution that combines the strengths of both paradigms by integrating a deep neural network for feature extraction with a traditional VSLAM pipeline. The system leverages a novel loss function to train sparse keypoint detectors, optimized for pose estimation tasks, within the Monodepth2 framework. Experimental evaluations demonstrate the system's robustness in challenging scenarios, such as low-light and low-texture environments, significantly outperforming ORB-SLAM3 in accuracy and generalization capabilities.
       </p>
     </section>
 
