@@ -121,10 +121,11 @@ h2 {
 }
 
 .overview-image {
-  max-width: 75%; /* Adatta l'immagine alla larghezza del contenitore */
-  height: auto;
-  border-radius: 10px; /* Arrotonda i bordi dell'immagine */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+  max-width: 50%; /* Riduci la larghezza al 50% del contenitore */
+  height: auto; /* Mantieni le proporzioni */
+  margin: 0 auto; /* Centra l'immagine */
+  border-radius: 10px; /* Arrotonda i bordi */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiungi un'ombra leggera */
 }
 
 .overview-text {
