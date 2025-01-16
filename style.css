@@ -177,3 +177,11 @@ h2 {
   margin-bottom: 20px; /* Spaziatura sotto il PDF */
 }
 
+.abstract p, .overview-text, .method-text, .results-text {
+  font-size: 16px; /* Dimensione del testo */
+  color: #333; /* Colore nero */
+  line-height: 1.6; /* Spaziatura tra le righe */
+  text-align: justify; /* Giustifica il testo */
+  margin: 0 auto; /* Centro il blocco */
+  max-width: 800px; /* Larghezza massima per il testo */
+}
