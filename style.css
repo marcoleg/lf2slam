@@ -99,7 +99,10 @@ p {
 }
 
 .method-image {
-  max-width: 80%; /* Riduce la dimensione dell'immagine */
+  max-width: 70%; /* Riduce la dimensione dell'immagine */
   height: auto;
-  margin: 20px 0;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px; /* Arrotonda i bordi */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
 }
