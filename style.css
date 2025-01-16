@@ -121,7 +121,7 @@ h2 {
 }
 
 .overview-image {
-  max-width: 100%; /* Adatta l'immagine alla larghezza del contenitore */
+  max-width: 75%; /* Adatta l'immagine alla larghezza del contenitore */
   height: auto;
   border-radius: 10px; /* Arrotonda i bordi dell'immagine */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
