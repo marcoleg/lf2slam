@@ -193,3 +193,60 @@ h2 {
   text-align: center; /* Allinea al centro */
   margin-bottom: 15px; /* Spazio sotto il titolo */
 }
+
+@media (max-width: 768px) {
+  /* Adatta il contenitore principale */
+  main {
+    padding: 10px;
+    max-width: 100%; /* Usa l'intera larghezza dello schermo */
+  }
+
+  /* Ridimensiona il titolo */
+  header h1 {
+    font-size: 28px; /* Titolo più piccolo */
+  }
+
+  /* Testo degli autori e affiliazioni */
+  .authors, .affiliations {
+    font-size: 14px; /* Riduci la dimensione del testo */
+  }
+
+  /* Pulsanti */
+  .buttons {
+    flex-wrap: wrap; /* Permette ai pulsanti di andare a capo */
+    gap: 10px; /* Riduce lo spazio tra i pulsanti */
+  }
+
+  .button {
+    padding: 8px 12px; /* Riduce i margini interni dei pulsanti */
+    font-size: 12px; /* Testo più piccolo nei pulsanti */
+  }
+
+  /* Video */
+  .video-container {
+    width: 100%; /* Occupa l'intera larghezza dello schermo */
+    height: auto; /* Adatta l'altezza in proporzione */
+  }
+
+  .video-container iframe {
+    width: 100%; /* Adatta il video alla larghezza */
+    height: 200px; /* Altezza più ridotta per schermi piccoli */
+  }
+
+  /* Immagini */
+  .overview-image, .method-image, .results-image {
+    max-width: 100%; /* Adatta le immagini alla larghezza dello schermo */
+    height: auto;
+  }
+
+  /* Testo */
+  .abstract p, .overview-text, .method-text, .results-text {
+    font-size: 14px; /* Riduci la dimensione del testo */
+    line-height: 1.4; /* Spaziatura tra le righe leggermente ridotta */
+  }
+
+  /* Spaziatura generale */
+  section {
+    padding: 15px 0; /* Riduce la spaziatura verticale tra le sezioni */
+  }
+}
