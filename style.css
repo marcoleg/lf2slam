@@ -274,11 +274,15 @@ h2 {
   font-family: 'Courier New', Courier, monospace; /* Font per codice */
   font-size: 14px; /* Dimensione del testo */
   text-align: left; /* Allineamento a sinistra */
-  overflow-x: auto; /* Scroll orizzontale per BibTeX lungo */
+  overflow-x: auto; /* Abilita scrolling orizzontale */
+  white-space: pre; /* Mantieni spaziature originali */
+  max-width: 800px; /* Larghezza massima centrata */
+  margin: 0 auto; /* Centra il contenuto nella pagina */
 }
 
 .bibtex-content pre {
   margin: 0;
-  white-space: pre-wrap; /* Permette la suddivisione del testo */
+  white-space: pre; /* Mantieni spaziature originali */
 }
+
 
