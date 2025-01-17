@@ -253,3 +253,32 @@ h2 {
     padding: 15px 0; /* Riduce la spaziatura verticale tra le sezioni */
   }
 }
+
+.bibtex {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.bibtex h2 {
+  font-size: 24px;
+  color: #000; /* Colore del titolo */
+  margin-bottom: 20px;
+}
+
+.bibtex-content {
+  background-color: #f5f5f5; /* Sfondo grigio chiaro */
+  padding: 15px;
+  border-radius: 10px; /* Bordi arrotondati */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Leggera ombra */
+  font-family: 'Courier New', Courier, monospace; /* Font per codice */
+  font-size: 14px; /* Dimensione del testo */
+  text-align: left; /* Allineamento a sinistra */
+  overflow-x: auto; /* Scroll orizzontale per BibTeX lungo */
+}
+
+.bibtex-content pre {
+  margin: 0;
+  white-space: pre-wrap; /* Permette la suddivisione del testo */
+}
+
