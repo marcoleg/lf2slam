@@ -88,18 +88,21 @@ h2 {
 .video-container {
   display: block;
   margin: 20px auto;
-  width: 800px;
-  height: 450px;
+  width: 100%; /* Usa tutta la larghezza disponibile */
+  max-width: 800px; /* Larghezza massima su desktop */
+  height: auto; /* Altezza proporzionale */
   border-radius: 15px; /* Smussa gli angoli */
   overflow: hidden; /* Nasconde i bordi del contenuto */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra */
 }
 
 .video-container iframe {
-  width: 100%;
-  height: 100%;
+  width: 100%; /* Adatta il video alla larghezza del contenitore */
+  height: auto; /* Altezza dinamica in base alla larghezza */
+  aspect-ratio: 16/9; /* Mantieni le proporzioni corrette */
   border: none; /* Rimuove eventuali bordi predefiniti */
 }
+
 
 .overview {
   margin-top: 30px;
