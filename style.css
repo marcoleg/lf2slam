@@ -275,14 +275,14 @@ h2 {
   font-size: 14px; /* Dimensione del testo */
   text-align: left; /* Allineamento a sinistra */
   overflow-x: auto; /* Abilita scrolling orizzontale */
-  white-space: pre; /* Mantieni spaziature originali */
-  max-width: 800px; /* Larghezza massima centrata */
-  margin: 0 auto; /* Centra il contenuto nella pagina */
+  white-space: nowrap; /* Impedisce al testo di andare a capo */
+  max-width: 800px; /* Larghezza massima del contenitore */
+  margin: 0 auto; /* Centra il contenitore */
 }
 
 .bibtex-content pre {
   margin: 0;
-  white-space: pre; /* Mantieni spaziature originali */
+  white-space: pre; /* Mantieni spaziatura originale */
 }
 
 
